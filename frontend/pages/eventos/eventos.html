@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/pages/eventos/style.css">
+    <title>Eventos</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script src="/frontend/components/header/header.js"></script>
+    
+    <h1 class="eventos__title">Visualizar Eventos</h1>
+    
+    <!-- Filtro para selecionar evento -->
+    <div class="filtro-container">
+        <label for="filtro-evento">Eventos:</label>
+        <select id="filtro-evento" class="filtro-container__select">
+            <option value="">Selecione um evento</option>
+            <!-- As opções podem ser preenchidas dinamicamente -->
+        </select>
+    </div>
+
+    <!-- Botão para carregar os eventos -->
+    <div class="filtro-container">
+        <button onclick="loadEventosComFiltro()" class="filtro-container__button">Carregar Evento</button>
+    </div>
+
+    <!-- Container para exibição dos eventos -->
+    <div id="eventos" class="eventos"></div>
+
+    <script src="/frontend/pages/eventos/script.js"></script>
+</body>
+
+</html>

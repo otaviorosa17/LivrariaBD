@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/pages/livro/style.css">
+    <title>Livraria</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script src="/frontend/components/header/header.js"></script>
+    <h1>Visualizar Livros</h1>
+
+    <!-- Container para Filtro e Botões -->
+    <div class="filtro-container">
+        <label for="filtro-genero">Gênero:</label>
+        <select id="filtro-genero">
+            <option value="">Selecione um gênero</option>
+            <!-- Adicione os opções dinamicamente se necessário -->
+        </select>
+
+        <button onclick="loadLivrosComFiltro()">Carregar Livros</button>
+    </div>
+
+    <!-- Container para os livros -->
+    <div id="livros" class="livrosStyle"></div>
+
+    <script src="/frontend/pages/livro/script.js"></script>
+</body>
+
+</html>

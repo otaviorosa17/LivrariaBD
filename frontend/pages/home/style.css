@@ -1,0 +1,164 @@
+/* Estilo para o container da imagem */
+.containerPng {
+    width: 100%; /* A largura da imagem ocupa 100% da tela */
+    height: 60vh; /* A altura ocupa 60% da altura da tela */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites */
+    display: flex;
+    background-image: url(assets/bookshop.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #eef2f3, #cfd9df); /* Gradiente no fundo para contraste */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra para realce */
+    margin: 20px 0; /* Espaço ao redor do container */
+}
+
+/* Estilo para a imagem */
+.containerPng img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem cobre o container sem distorcer */
+    border-radius: 15px; /* Bordas arredondadas */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transições suaves */
+}
+
+/* Efeito de hover na imagem */
+.containerPng img:hover {
+    transform: scale(1.05); /* Amplia a imagem suavemente */
+    opacity: 0.9; /* Torna a imagem levemente opaca */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra mais intensa ao passar o mouse */
+}
+
+/* Estilo para o conteúdo geral da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Modern sans-serif font */    background-color: #f8fafb; /* Fundo claro com tom sutil */
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f2f2f2; /* Soft gray background */
+}
+
+/* Estilo para o título */
+h1 {
+    font-family: 'Playfair Display', serif; /* Elegant serif font for headings */
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #287a54; /* Verde elegante */
+    padding: 20px;
+    font-size: 3rem;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    margin: 0; /* Remove a margem padrão */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+/* Footer Container */
+.footer {
+    background: linear-gradient(135deg, #4b5864, #1e2a37);
+    color: white;
+    padding: 50px 20px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+/* Footer Section */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h4 {
+    color: #f1f1f1;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff5733;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section p {
+    color: #d6d6d6;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Footer Links */
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #d6d6d6;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ff5733;
+    transform: translateX(5px);
+}
+
+/* Social Media Icons */
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff5733;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social a:hover {
+    background: #ff784e;
+    transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-section {
+        min-width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduz o título em telas menores */
+    }
+
+    .containerPng {
+        height: 40vh; /* Ajusta a altura para dispositivos móveis */
+    }
+}

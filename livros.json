@@ -1,0 +1,182 @@
+[
+  {
+    "lisbn": "9780000000001",
+    "gênero": "Ficção Científica",
+    "ano": 2021,
+    "edicao": "1ª",
+    "data_publicacao": "2021-05-01T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 320
+  },
+  {
+    "lisbn": "9780000000002",
+    "gênero": "Romance",
+    "ano": 2020,
+    "edicao": "2ª",
+    "data_publicacao": "2020-08-15T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 280
+  },
+  {
+    "lisbn": "9780000000003",
+    "gênero": "História",
+    "ano": 2019,
+    "edicao": "3ª",
+    "data_publicacao": "2019-10-20T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 450
+  },
+  {
+    "lisbn": "9780000000004",
+    "gênero": "Fantasia",
+    "ano": 2022,
+    "edicao": "1ª",
+    "data_publicacao": "2022-03-10T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 500
+  },
+  {
+    "lisbn": "9780000000005",
+    "gênero": "Biografia",
+    "ano": 2018,
+    "edicao": "4ª",
+    "data_publicacao": "2018-01-25T02:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 290
+  },
+  {
+    "lisbn": "9780000000006",
+    "gênero": "Poesia",
+    "ano": 2021,
+    "edicao": "2ª",
+    "data_publicacao": "2021-04-18T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 200
+  },
+  {
+    "lisbn": "9780000000007",
+    "gênero": "Autoajuda",
+    "ano": 2020,
+    "edicao": "1ª",
+    "data_publicacao": "2020-06-07T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 310
+  },
+  {
+    "lisbn": "9780000000008",
+    "gênero": "Negócios",
+    "ano": 2019,
+    "edicao": "3ª",
+    "data_publicacao": "2019-09-30T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 340
+  },
+  {
+    "lisbn": "9780000000009",
+    "gênero": "Ciência",
+    "ano": 2022,
+    "edicao": "1ª",
+    "data_publicacao": "2022-11-11T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 410
+  },
+  {
+    "lisbn": "9780000000010",
+    "gênero": "Psicologia",
+    "ano": 2021,
+    "edicao": "2ª",
+    "data_publicacao": "2021-07-22T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 290
+  },
+  {
+    "lisbn": "9780000000011",
+    "gênero": "Infantil",
+    "ano": 2020,
+    "edicao": "1ª",
+    "data_publicacao": "2020-12-05T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 150
+  },
+  {
+    "lisbn": "9780000000012",
+    "gênero": "Esporte",
+    "ano": 2019,
+    "edicao": "3ª",
+    "data_publicacao": "2019-02-14T02:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 240
+  },
+  {
+    "lisbn": "9780000000013",
+    "gênero": "Filosofia",
+    "ano": 2018,
+    "edicao": "4ª",
+    "data_publicacao": "2018-05-18T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 360
+  },
+  {
+    "lisbn": "9780000000014",
+    "gênero": "Drama",
+    "ano": 2021,
+    "edicao": "1ª",
+    "data_publicacao": "2021-09-25T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 420
+  },
+  {
+    "lisbn": "9780000000015",
+    "gênero": "Policial",
+    "ano": 2020,
+    "edicao": "2ª",
+    "data_publicacao": "2020-03-12T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 380
+  },
+  {
+    "lisbn": "9780000000016",
+    "gênero": "Aventura",
+    "ano": 2019,
+    "edicao": "1ª",
+    "data_publicacao": "2019-07-03T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 310
+  },
+  {
+    "lisbn": "9780000000017",
+    "gênero": "Religião",
+    "ano": 2022,
+    "edicao": "1ª",
+    "data_publicacao": "2022-01-10T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 270
+  },
+  {
+    "lisbn": "9780000000018",
+    "gênero": "Educação",
+    "ano": 2021,
+    "edicao": "3ª",
+    "data_publicacao": "2021-06-15T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 330
+  },
+  {
+    "lisbn": "9780000000019",
+    "gênero": "Medicina",
+    "ano": 2020,
+    "edicao": "2ª",
+    "data_publicacao": "2020-11-20T03:00:00.000Z",
+    "formato": "Impresso",
+    "numero_pagina": 400
+  },
+  {
+    "lisbn": "9780000000020",
+    "gênero": "Engenharia",
+    "ano": 2019,
+    "edicao": "1ª",
+    "data_publicacao": "2019-08-08T03:00:00.000Z",
+    "formato": "Ebook",
+    "numero_pagina": 360
+  }
+]

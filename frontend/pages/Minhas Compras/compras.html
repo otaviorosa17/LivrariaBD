@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/pages/Minhas Compras/style.css">
+    <title>Formas de Pagamento</title>
+</head>
+
+<body>
+    <div id="header"></div>
+    <script src="/frontend/components/header/header.js"></script>
+    
+    <h1>Visualizar formas de pagamento</h1>
+    
+    <!-- Container para Filtro de Compras -->
+    <div class="filtro-container">
+        <label for="filtro-comprovante">Formas de Pagamento:</label>
+        <select id="filtro-comprovante">
+            <option value="">Selecione seu CPF</option>
+            <!-- Adicionar opções dinamicamente, se necessário -->
+        </select>
+    </div>
+
+    <!-- Container para o botão de carregar compras -->
+    <div class="filtro-container">
+        <button onclick="loadCompras()">Carregar quantidade</button>
+    </div>
+
+    <!-- Container para exibição das compras -->
+    <div id="compras" class="comprasStyle"></div>
+
+    <script src="/frontend/pages/Minhas Compras/script.js"></script>
+</body>
+
+</html>

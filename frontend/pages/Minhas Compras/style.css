@@ -1,0 +1,128 @@
+/* Estilo geral para o container de compras */
+.comprasStyle {
+    background-color: #f9f9f9; /* Cor de fundo suave e clara */
+    display: flex;
+    flex-direction: column;       /* Organiza os itens na coluna */
+    align-items: center;          /* Centraliza os itens horizontalmente */
+    justify-content: flex-start;  /* Alinha os itens no topo */
+    min-height: 100vh;            /* Faz o container ocupar toda a altura da tela */
+    padding: 40px 20px;           /* Maior espaçamento para dar a sensação de organização */
+    box-sizing: border-box;       /* Para garantir que o padding não quebre o layout */
+    font-family: 'Georgia', serif; /* Fonte clássica e elegante */
+    color: #333;                  /* Cor de texto suave */
+}
+
+/* Estilo para o título da seção */
+h1 {
+    text-align: center;           /* Centraliza o texto */
+    font-size: 36px;              /* Tamanho grande e impactante */
+    font-weight: 700;             /* Negrito para destaque */
+    color: #2c3e50;               /* Cor escura para o título */
+    margin-bottom: 30px;          /* Espaçamento abaixo do título */
+    text-transform: uppercase;    /* Título em maiúsculas */
+    letter-spacing: 1px;          /* Leve espaçamento entre as letras */
+}
+
+/* Estilo para os itens de compra */
+.comprasStyle > div {
+    background-color: #ffffff;    /* Cor de fundo branca para os itens */
+    padding: 20px;
+    margin-bottom: 25px;           /* Espaço entre os itens */
+    width: 90%;                    /* Largura dos itens */
+    max-width: 460px;              /* Limita a largura máxima */
+    border-radius: 15px;           /* Bordas arredondadas elegantes */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de hover */
+    text-align: center;            /* Centraliza o texto */
+}
+
+/* Efeito de hover nos itens de compra */
+.comprasStyle > div:hover {
+    transform: translateY(-8px);   /* Leve elevação ao passar o mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para foco */
+}
+
+/* Estilo para os títulos dentro de cada item de compra */
+.comprasStyle > div h2 {
+    font-size: 24px;
+    font-weight: 600;              /* Título em negrito */
+    color: #34495e;                /* Cor mais suave para o título */
+    margin-bottom: 15px;           /* Espaçamento abaixo do título */
+}
+
+/* Estilo para as descrições dentro de cada item de compra */
+.comprasStyle > div p {
+    font-size: 16px;
+    color: #7f8c8d;                /* Cor de texto mais suave para descrição */
+    margin-bottom: 20px;           /* Espaçamento abaixo da descrição */
+}
+
+/* Estilo para o container de filtro e botões */
+.filtro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;                    /* Espaçamento entre os itens */
+    margin-bottom: 40px;          /* Espaçamento entre o filtro e os itens */
+}
+
+/* Estilo para os selects e botões dentro do filtro */
+.filtro-container select, .filtro-container button {
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;       /* Borda suave */
+    background-color: #f4f4f4;    /* Cor de fundo suave para controles */
+    transition: all 0.3s ease;    /* Animação suave para hover */
+    width: 80%;                   /* Largura dos controles */
+    max-width: 500px;             /* Largura máxima */
+    font-family: 'Georgia', serif; /* Fonte serifada */
+}
+
+/* Estilo do select */
+.filtro-container select {
+    background-color: #f1f1f1;    /* Fundo suave para o select */
+    color: #34495e;                /* Cor do texto do select */
+}
+
+/* Estilo do botão */
+.filtro-container button {
+    background-color: #007BFF;    /* Cor de fundo azul para o botão */
+    color: white;                 /* Texto branco */
+    cursor: pointer;              /* Muda o cursor ao passar sobre o botão */
+    font-weight: 600;              /* Negrito no texto */
+}
+
+/* Efeitos de hover nos controles do filtro */
+.filtro-container select:hover, .filtro-container button:hover {
+    background-color: #0056b3;    /* Cor mais escura no hover */
+    transform: translateY(-4px);  /* Leve elevação no hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave no hover */
+}
+
+/* Efeito de foco nos controles do filtro */
+.filtro-container select:focus, .filtro-container button:focus {
+    outline: none;                /* Remove o contorno */
+    box-shadow: 0 0 5px 2px rgba(0, 123, 255, 0.5); /* Sombra ao focar */
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .comprasStyle {
+        padding: 20px 10px;        /* Menos espaçamento nas telas pequenas */
+    }
+
+    .filtro-container {
+        gap: 15px;                 /* Menos espaço entre os controles */
+    }
+
+    .comprasStyle > div {
+        width: 100%;                /* Os itens ocupam toda a largura */
+        margin-bottom: 20px;        /* Menos espaço entre os itens */
+    }
+
+    h1 {
+        font-size: 28px;            /* Tamanho menor para o título em telas pequenas */
+    }
+}
